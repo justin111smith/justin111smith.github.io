@@ -3,6 +3,110 @@
 ---
 @charset "utf-8";
 
+/* myStyle.css */
+body {
+ background-color: blue;
+ color: white;
+ font-family: Roboto;
+ padding: 2em;
+}
+
+h1 {
+ color: #FFFF33;
+ text-align: center;
+ #font: 200% Comic Sans MS;#
+ border: 10px solid black;
+ font-family: 'Droid Sans', sans-serif;
+ font-size: 2.5em;
+}
+
+h2 {
+  color: pink;
+  text-align: center;
+  border: 20px solid blue;
+  font-family: 'Droid Sans', sans-serif;
+}
+
+p {
+ background-color: #3F3FBF;
+ color: black;
+ text-align: center;
+ border: 3px groove green;
+}
+
+.btn {
+  text-align: center;
+  margin: 0 auto;
+  color: white;
+}
+
+.container {
+  border: 6px groove red;
+  border-radius: 30%;
+  background-color: green;
+}
+
+.skillset {
+  display: flex;
+  font-family: Pangolin;
+  justify-content:  space-around;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+}
+
+.skill-html {
+  background-color: #53f397;
+  color: black;
+}
+
+.skill-js {
+  background-color: #d45df2;
+  color: blue;
+}
+
+.skill-jquery {
+  background-color: #0C73B8;
+  color: yellow;
+}
+
+.skill-html,
+.skill-js,
+.skill-jquery {
+  width: 100%;
+  padding: 1em 3em 2em 2em;
+  margin: 0.5em;
+
+}
+
+.projects-button {
+  padding: 0.75em 1.25em;
+  background-color: white;
+  opacity: 0.9;
+  width: 10em;
+  color: black;
+  display: flex;
+  justify-content: center;
+}
+
+
+ul {
+  list-style: disc;
+  padding: 0;
+}
+
+.projects {
+  margin: 1em 0;
+}
+
+.active {
+  background-color: #333333;
+  color: white;
+}
+
+.London {
+  font-family: 'Pangolin', cursive;
+}
 
 
 // Our variables
